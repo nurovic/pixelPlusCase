@@ -1,0 +1,20 @@
+@import 'button';
+.section {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    height: 53px;
+  }
+  
+  .section__title {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #191B2C;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .section__button {
+    @include buttonStyles(255px, 53px);
+  }

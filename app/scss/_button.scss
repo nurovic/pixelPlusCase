@@ -1,0 +1,36 @@
+@mixin buttonStyles($width: 177px, $height: 53px) {
+    width: $width;
+    height: $height;
+    background-color: transparent;
+    border: 1px solid #8599A8;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 46px 0;
+    color: #8599A8;
+    transition: all 0.3s ease; 
+  
+    &:hover {
+      border-color: #0056b3;
+      color: #fff;
+      border:none;
+      background-color: #748EFC;
+      box-shadow: 0px 5px 20px #748EFC80;
+    }
+  
+    &:active {
+      animation: dissolve 0.3s ease-out;
+    }
+  }
+  
+  @keyframes dissolve {
+    from {
+      opacity: 1; 
+    }
+    to {
+      opacity: 0;
+    }  
+    }  
