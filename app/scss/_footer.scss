@@ -5,12 +5,12 @@
     align-items: center;
     justify-content: center;    
     padding: 20px;
-    bottom: 0;
+    position: fixed;
     height: 74px;
     .title{
         opacity: .4;
         color: #FFFFFF;
-        font: normal normal normal 18px/30px Roboto;
+        font: normal normal normal 18px Roboto;
 
     }
 }

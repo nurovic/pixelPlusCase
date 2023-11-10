@@ -1,4 +1,4 @@
-@mixin cardStyle($width, $height) {
+@mixin cardStyle($width: 1px, $height: 2px) {
     --card-width: $width;
     --card-height: $height;
 
